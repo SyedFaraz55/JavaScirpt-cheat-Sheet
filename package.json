@@ -1,0 +1,23 @@
+{
+  "name": "cs50",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Async.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyedFaraz55/JavaScirpt-cheat-Sheet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SyedFaraz55/JavaScirpt-cheat-Sheet/issues"
+  },
+  "homepage": "https://github.com/SyedFaraz55/JavaScirpt-cheat-Sheet#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}

@@ -26,8 +26,6 @@ if(size>0) {
         if(value === key){
             document.write('<br>');
             document.write(`<div class="alert alert-primary" role="alert">${key} found at postion ${index}</div>`);
-        } else {
-            alert('not found');
         }
     });
     

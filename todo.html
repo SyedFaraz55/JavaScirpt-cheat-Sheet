@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+   
+</head>
+<body>
+    <h1>Tasks</h1>
+    <ul id="tasks"></ul>
+
+    <form id="new-task">
+        <input type="text" id="task" placeholder="New Task" autocomplete="off">
+        <input type="submit" value="submit" >
+    </form>
+
+    <script>
+        
+
+        document.addEventListener("DOMContentLoaded",function() {
+                document.querySelector('#new-task').onsubmit = function(){
+                let val =  document.querySelector('#task').value;
+
+                if(val === ''){
+                    alert("Please add a new task");
+                } else {
+                    const li = document.createElement('li');
+                    li.innerHTML = val;
+                    document.querySelector('#tasks').append(li);
+                    document.querySelector('#task').value = '';
+                    return false;
+                }      
+    };
+});
+
+    </script>
+</body>
+</html>
