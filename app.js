@@ -49,13 +49,13 @@ if(true){
     console.log('Third: ' + name);
 }
 
-// functions
+// functions expession - console.log greeting and see what will be the output ??? 
 
 let greeting = function(){
     console.log()
 }
 
-// // function wtih parameter
+// // function expession wtih parameter
 
 let square = function(num){
     let result = num * num;
@@ -64,7 +64,7 @@ let square = function(num){
 
 let ret = square(2);
 console.log(ret);
-// // Challenge: Create a function which accept a message & name and show string like you have one notification (prompt)
+// // Challenge: Create a function which accept a message & name and show string like you have one notification (prompt) -- function expression
 // // Challenge: Create temp calculator
 
 let temp = function(fahr){
